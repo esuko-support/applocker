@@ -1,0 +1,120 @@
+<RuleCollection Type="Executable" EnforcementMode="Enforced">
+    <FilePathRule Id="1" Name="Block ADE files" Description="Block all .ADE files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.ade" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="2" Name="Block ADP files" Description="Block all .ADP files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.adp" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="3" Name="Block BAS files" Description="Block all .BAS files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.bas" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="4" Name="Block BAT files" Description="Block all .BAT files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.bat" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="5" Name="Block CHM files" Description="Block all .CHM files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.chm" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="6" Name="Block CMD files" Description="Block all .CMD files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.cmd" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="7" Name="Block COM files" Description="Block all .COM files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.com" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="8" Name="Block CPL files" Description="Block all .CPL files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.cpl" />
+        </Conditions>
+    </FilePathRule>
+    <!-- 残りの拡張子に対しても同様のルールを追加 -->
+    <FilePathRule Id="9" Name="Block CRT files" Description="Block all .CRT files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.crt" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="10" Name="Block EXE files" Description="Block all .EXE files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.exe" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="11" Name="Block HLP files" Description="Block all .HLP files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.hlp" />
+        </Conditions>
+    </FilePathRule>
+    <!-- 他のファイル拡張子のルールも続けて追加... -->
+    <!-- 最後に -->
+    <FilePathRule Id="12" Name="Block WSC files" Description="Block all .WSC files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.wsc" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="23" Name="Block MSP files" Description="Block all .MSP files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.msp" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="24" Name="Block MST files" Description="Block all .MST files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.mst" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="25" Name="Block OCX files" Description="Block all .OCX files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.ocx" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="26" Name="Block PCD files" Description="Block all .PCD files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.pcd" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="27" Name="Block PIF files" Description="Block all .PIF files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.pif" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="28" Name="Block REG files" Description="Block all .REG files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.reg" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="29" Name="Block SCR files" Description="Block all .SCR files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.scr" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="30" Name="Block SHS files" Description="Block all .SHS files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.shs" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="31" Name="Block URL files" Description="Block all .URL files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.url" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="32" Name="Block VB files" Description="Block all .VB files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.vb" />
+        </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="33" Name="Block WSC files" Description="Block all .WSC files" UserOrGroupSid="S-1-1-0" Action="Deny">
+        <Conditions>
+            <FilePathCondition Path="*.wsc" />
+        </Conditions>
+    </FilePathRule>
+</RuleCollection>
